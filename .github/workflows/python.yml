@@ -38,5 +38,3 @@ jobs:
             echo "No tests found. Skipping tests."
           fi
 
-      - name: Build Docker image
-        run: docker build -t my-python-app .
