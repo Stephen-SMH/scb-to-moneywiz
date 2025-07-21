@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: "3.13"
           check-latest: true
-      - run: python my_script.py
+      
 
       - name: Install dependencies
         run: |
